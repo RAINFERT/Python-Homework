@@ -41,8 +41,8 @@ class City:
             city_info.append(str(family))
         return "\n\n".join(city_info)
 
-father = Person(first_name="Максим", last_name="Потапов")
-mother = Person(first_name="Валентина", last_name="Пышкина")
+father = Person(first_name="Александр", last_name="Друшляков")
+mother = Person(first_name="Елена", last_name="Друшлякова")
 
 family = Family(father, mother)
 
